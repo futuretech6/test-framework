@@ -1,0 +1,6 @@
+# cache and output
+*.o
+*.out
+
+# misc
+compile_flags.txt
