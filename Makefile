@@ -2,7 +2,7 @@
 
 CXX = g++
 INCLUDE = -Iinclude
-CXX_FLAGS = $(INCLUDE) -std=c++17
+CXX_FLAGS = $(INCLUDE) -std=c++17 -g
 
 default: test
 
