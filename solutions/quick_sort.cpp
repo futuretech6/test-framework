@@ -10,8 +10,7 @@ typename std::vector<T>::iterator quick_partition(typename std::vector<T>::itera
 
     for (auto j = begin; j < end - 1; j++) {
         if (*j < pivot_val) {
-            std::swap(*i, *j);
-            i++;
+            std::swap(*(i++), *j);
         }
     }
 
