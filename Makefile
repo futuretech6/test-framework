@@ -19,7 +19,7 @@ bin/:
 
 # run
 test: build
-	ls bin/ | xargs -I{} sh -c "echo '\e[32mRunning bin/{}\e[0m'; bin/{};"
+	@ls bin/ | xargs -I{} sh -c "echo '\e[32mRunning bin/{}\e[0m'; bin/{};"
 
 # clean
 clean:

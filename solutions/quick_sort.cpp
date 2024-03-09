@@ -1,3 +1,5 @@
+#include <utility>  // swap
+
 #include "solution.h"
 
 std::vector<int> *helper_pointer;
